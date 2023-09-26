@@ -1,1 +1,12 @@
 /* your styles will go here!! */
+
+/* global */
+
+h1 {
+    color: #000;
+    font-family: Prata;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
