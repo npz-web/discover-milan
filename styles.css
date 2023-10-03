@@ -11,6 +11,15 @@ h1 {
     line-height: normal;
 }
 
+/* navigation styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
 nav a {
     color: #000000;
     font-family: Prata;
@@ -19,4 +28,18 @@ nav a {
     font-weight: 400;
     line-height: normal;
     padding: 10px;
+}
+
+/* home */
+
+.home main {
+    display:flex;
+    margin: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+.home img {
+    max-width: 600px;
+    width: 100%;
 }
