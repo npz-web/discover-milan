@@ -6,10 +6,6 @@ body {
     background: linear-gradient(0deg, #0D2818 0%, rgba(13, 40, 24, 0.00) 72.12%);
 }
 
-#logo img{
-    width: 111px;
-}
-
 h1 {
     color: #000;
     font-family:'Prata', serif;
@@ -23,9 +19,13 @@ h1 {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin: 40px;
+}
+
+#logo img{
+    width: 111px;
 }
 
 nav a {
@@ -39,8 +39,9 @@ nav a {
     background: #0D2818;
 }
 
-nav a:hover{
-    background: #EDE7E3;
+nav a:hover, nav a:focus {
+    background-color: #EDE7E3;
+    color: black;
 }
 
 /* home */
@@ -59,6 +60,11 @@ nav a:hover{
 .home img {
     max-width: 600px;
     width: 30%;
+}
+
+.home p {
+    display: flex;
+    margin-left: 170px;
 }
 
 .home iframe {
