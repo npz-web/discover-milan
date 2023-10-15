@@ -39,6 +39,10 @@ nav a {
     background: #0D2818;
 }
 
+nav a:hover{
+    background: #EDE7E3;
+}
+
 /* home */
 
 .home main {
